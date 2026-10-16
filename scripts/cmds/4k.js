@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 const baseApiUrl = async () => {
-        const base = await axios.get("https://raw.githubusercontent.com/mahmud-aura/HINATA/main/baseApiUrl.json");
+        const base = await axios.get("https://raw.githubusercontent.com/mahmudx7/HINATA/main/baseApiUrl.json");
         return base.data.mahmud;
 };
 
@@ -9,7 +9,7 @@ module.exports = {
         config: {
                 name: "4k",
                 aliases: ["hd", "enhance", "upscale"],
-                version: "2.7",
+                version: "3.7",
                 author: "MahMUD",
                 countDown: 10,
                 role: 0,
